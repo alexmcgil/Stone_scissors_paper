@@ -1,5 +1,7 @@
 from Game import *
+import random
 
 
-Choose_player = input("Enter your choose (Stone or Scissor or Paper):")
-step(Choose_player)
+Choosing_an_opponent = random.randint(0, 2)
+Players_choice = input("Enter your choose (Stone or Scissor or Paper):")
+step(Players_choice)
