@@ -1,5 +1,5 @@
 import random
 
 
-def step(Choose_player):
-    if Choose_player == Stone:
+def step(Players_choice, Choosing_an_opponent):
+    if Players_choice == Stone:
